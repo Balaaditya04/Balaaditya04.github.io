@@ -156,3 +156,89 @@ body {
 .service-item p {
     color: #666;
 }
+/* CSS for FORM*/
+
+
+
+
+
+
+
+
+
+/* 
+form {
+    background: #edf6ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px #0003;
+}
+
+label {
+    color: #007bff;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+    background: #edf6ff;
+}
+
+h1 {
+    color: #ff6f61;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+a h2 {
+    margin-bottom: 5px;
+    color: #007bff;
+    font-size: 1.5em;
+}
+
+a h2:hover {
+    color: #ff6f61;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+ul li a {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ff6f61;
+} */
+
+
