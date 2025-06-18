@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Tags</h1>
+    <!-- <form action="serverfile" method="POST"> -->
+        <h5>required,autofocus, maxlength,readonly,disabled</h5>
+        <form>
+        <label><strong>Example:</strong></label>
+        <p><input type="text" required autofocus maxlength="8" value="Name" readonly disabled/></p>
+        <input type="submit" value="submit"/>
+        <label><b>Name:</b></label>
+       <p><input type="text"  size="25px" placeholder="Enter Your Name" required/></p>
+        <button style="color: red; size: 20px;background-color:chartreuse; border-radius:10px;">Submit</button>
+        <input type="image" src="/html/button.png" />
+    </form>
+    <hr><br>
+    <fieldset>
+        <legend>Login Form</legend>
+        <form>
+            <label>Email</label>
+            <p><input type="email" placeholder="Enter a valid address" required/></p>
+            <label>Password</label>
+            <p><input type="password" placeholder="Enter a password" required/></p>
+            <button>Login</button>
+        </form>
+    </fieldset>
+
+    <br>
+    <fieldset>
+        <legend>Register Form</legend>
+        <form>
+            <label>Name:</label>
+            <p><input type="text" placeholder="Enter your name" required/></p>
+            <label>Email:</label>
+            <p><input type="email" placeholder="Enter your email" required/></p>
+            <label>Password:</label>
+            <p><input type="password" placeholder="Enter your password" required/></p>
+            <label>Age:</label>
+            <p><input type="number" required/></p>
+            <p><legend>comment:</legend><textarea rows="5" cols="50" placeholder="about me"></textarea></p>
+            <input type="date"/>
+
+            <p>
+                <input type="checkbox"> MERNstack
+                <input type="checkbox"> MEAN stack
+                <input type="checkbox"> Java fullstack
+            </p>
+            <p>
+                <input type="radio" name="batch">Morning Batch
+                <input type="radio" name="batch">Evening Batch
+            </p>
+            <P>Education:
+                <select >
+                    <option selected>B.Tech</option>
+                    <option>MBA</option>
+                    <option>Pharmacy</option>
+                    <option>B.Arch</option>
+                </select>
+            </P>
+            <p>choose file:<input type="file"/></p>
+            <p>place:
+                <select>
+                    <optgroup label="India">
+                        <option>Delhi</option>
+                        <option>Vizag</option>
+                        <option>Hyderabad</option>
+                    </optgroup>
+                    <optgroup label="USA">
+                        <option>Colombus</option>
+                        <option>Miami</option>
+                        <option>California</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p><input type="color"/></p>
+            <p><label for="c1">Remember me</label><input type="checkbox" id="c1"/></p>
+            <P>
+                <input list ="country"/>
+                <datalist id="country">
+                    <option>India</option>
+                    <option>Russia</option>
+                    <option>America</option>
+                    <option>Canada</option>
+                    <option>Europe</option>
+                </datalist>
+            </P>
+            <button style="color:black; size: 20px;background-color:burlywood; border-radius:10px;">Login</button>
+            <input type="reset">
+        </form>
+    </fieldset>
+</body>
+</html>
