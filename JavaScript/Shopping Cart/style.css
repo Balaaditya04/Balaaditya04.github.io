@@ -1,0 +1,10 @@
+.container{
+    border: 0cap;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
