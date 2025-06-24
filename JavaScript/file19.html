@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let user={}
+        let users =[]
+        const addUser =()=>{
+            users.push(user);
+            console.log(users);
+        };
+    </script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>
+    <input type="text" onchange="f1(event.target.value)" placeholder="Enter Name"\n/>
+    <input type="text" placeholder="Enter Email"/>
+    <input type="text" placeholder="New Password"/>
+    </p>
+</body>
+</html>-->
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let user = {};
+        let users = [];
+        
+        const f1 = (value) => {
+            user.name = value;
+        };
+
+        const addUser = () => {
+            users.push(user);
+            console.log(users);
+        };
+    </script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>
+        <input type="text" placeholder="Enter Name" onchange="user.name=event"/>
+        <input type="text" placeholder="Enter Email" onchange="f1(event.target.value)"/>
+        <input type="text" onchange="f1(event.target.value)" placeholder="New Password"/>
+    </p>
+</body>
+</html>
