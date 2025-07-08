@@ -148,7 +148,7 @@ const authorize = (role) => {
     if (role === req.role) {
       next();
     } else {
-      return res.json({ message: "Unauthorized access" });
+      return res.json({ message: "Unauthorized access" });//
     }
   };
 };
